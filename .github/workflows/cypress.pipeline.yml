@@ -4,7 +4,7 @@ name: Run Basic Testes
 # Em que momento será executado
 on: 
   pull_request:
-    braches: [master]
+    branches: [master]
 
 jobs:
   # O que vai ser feito nessa pipeline
@@ -16,7 +16,7 @@ jobs:
     # Passo a passo para rodar os testes
     steps:
       # Clone do projeto
-      - uses: Checkout/Clone do projeto
+      - name: Checkout/Clone do projeto
         uses: actions/checkout@v4
 
       # Exemplo de execução no terminal
