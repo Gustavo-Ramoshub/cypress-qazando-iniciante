@@ -21,7 +21,7 @@ jobs:
 
       # Exemplo de execução no terminal
       - name: Instalar dependencias do projeto
-        run: npm install @faker-js/faker
+        run: npm install
 
       # Execução e configuração do projeto
       - name: Run testes
